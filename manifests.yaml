@@ -2,7 +2,7 @@ kind: Deployment
 apiVersion: apps/v1
 metadata:
   name: lara-iptv3
-  namespace: deafult
+  namespace: default
   labels:
     k8s-app: lara-iptv3  
 spec:
