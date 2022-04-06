@@ -19,7 +19,7 @@ spec:
     spec:
       containers:
         - name: lara-iptv3
-          image: davin777/laravel-iptv
+          image: ${artifact.metadata.image}
           args:
             - '--enable-insecure-login'
             - '--insecure-bind-address=0.0.0.0'
