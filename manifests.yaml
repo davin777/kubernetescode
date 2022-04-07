@@ -10,12 +10,7 @@ spec:
   selector:
     matchLabels:
       k8s-app: lara-iptv3
-  template:
-    metadata:
-      name: lara-iptv3
-      creationTimestamp: null
-      labels:
-        k8s-app: lara-iptv3
+  
     spec:
       containers:
         - name: lara-iptv3
